@@ -5,5 +5,5 @@ let count = 0;
 
 button.addEventListener("click", () => {
     count++;
-    display.textContent = count;
+    display.innerHTML = count;
 });
