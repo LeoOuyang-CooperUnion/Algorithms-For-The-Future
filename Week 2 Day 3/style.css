@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    padding: 20px 36px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.filter {
+    margin-top: 30px;
+}
+
+.filter-button.active {
+    background-color: black;
+    color: white;
+}
+
+#factDisplay {
+    display: block;
+    background-color: #FFF8DC;
+    color: black;
+    padding: 20px 30px;
+    margin: 20px auto 20px auto;
+    width: auto;
+    min-width: 650px;
+    max-width: 650px;
+    border: 3px solid orange;
+    font-size: 18px;
+    line-height: 1.6;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    height: auto;
+}
+
+#factButton {
+    border-radius: 20px;
+    color: white;
+    background-color: #333;
+    margin-top: 20px;
+}
