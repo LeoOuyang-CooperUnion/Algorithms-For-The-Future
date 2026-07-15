@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+
+ body {
+    background-color: rgb(222, 218, 205);
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+}
+
+ header {
+    color: rgb(105, 84, 58);
+    align-items: center;
+}
+
+  .first{
+    position:relative;
+    display: flexbox;
+    padding: 20px 28px 14px;
+    height: 54px;
+    border-top: 30px
+    color(srgb red green rgb(192, 192, 242))
+  }
+
+  .second{
+    position:relative;
+    display: flexbox;
+    padding: 20px 28px 14px;
+    align-items: center;
+    height:54px;
+    border-top: 30px
+    color(srgb red green rgb(192, 192, 242))   
+  }
+
+  .dropdowns{
+    position:relative;
+    display: flexbox;
+    align-items: center;
+    height:54px;
+    padding: 20px 28px 14px;
+    color: rgb(105, 84, 58);
+    border-top: 30px, rgb(236, 167, 167)
+    color(srgb red green rgb(192, 192, 242))   
+  }
+
+
+</style>
+<body>
+
+  <header>
+    <h1>CL</h1>
+  </header>
+
+ <div class="first">
+
+    <p>Some Things I like:</p>
+    <ul>
+        <li>Strawberries</li>
+        <li>Smooth Yogurt</li>
+        <li>Calligraphy Pens</li>
+    </ul>
+  </div>
+  
+
+ <div class="second">
+  
+    <p>Some Things I dislike:</p>
+    <ul>
+        <li>Wildlife</li>
+        <li>Mayoinaise</li>
+        <li>Sharp Stones</li>
+    </ul>
+ </div>
+
+ <div class="dropdowns" id="myDropdown">
+    <ul>
+        <li><button id="buttonthing" onclick="clickButton()">Front Page</button></li>
+        <li><button id="buttonthing" onclick="clickButton2()">Moodboard</button></li>
+        <li><button id="buttonthing" onclick="clickButton3()">Q&A</button></li>
+    </ul>
+ </div>
+
+<script>
+
+function clickButton() {
+    window.location.href = "index.html";
+}
+
+function clickButton2() {
+ open("https://ohiodnr.gov/wps/portal/gov/odnr/discover-and-learn/animals/mammals/white-tailed-deer/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zi_SzdHQ0NvQ38DMxDHA0CDY0tXA0CTJ0CA0z0w1EVWAQ5GxsEhhoGGPkahXoHBproRxGj3wAHcDQgpN-LkAKgD4yKfJ190_WjChJLMnQz89Ly9SMS8zJzE3OK9SNyE3MhjPKMzJJU3ZLEzJzUFN2U1NQioNOiUA3H4jmwAjyuL8gNjajycbL0TFdUBAA5_EFa/#", "_blank");
+}
+
+function clickButton3() {
+  open("file:///c%3A/Users/STEM_STUDENT/Documents/GitHub/Algorithms-For-The-Future/Other%20things/other.html", "_blank");
+}
+</script>
+   
+
+</body>
+</html>

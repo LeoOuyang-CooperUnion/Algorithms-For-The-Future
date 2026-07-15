@@ -1,0 +1,19 @@
+
+function buttonClick() {
+    // Get the button element by its ID
+    var button = document.getElementById("click-button");
+    // Get the answer display element by its ID
+    var answerDisplay = document.getElementById("answer-display");
+    // Show the answer
+    answerDisplay.style.display = "block";
+
+}
+
+function buttonClick2() {
+    // Get the button element by its ID
+    var button2 = document.getElementById("click-button-2");
+    // Get the answer display element by its ID
+    var answerDisplay2 = document.getElementById("answerDisplay2");
+    // Show the answer
+    answerDisplay2.style.display = "block";
+}  
